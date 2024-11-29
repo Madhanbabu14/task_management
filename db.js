@@ -1,6 +1,5 @@
 const { Sequelize } = require('sequelize');
 
-// PostgreSQL client configuration
 const sequelize = new Sequelize('task_management', 'postgres', 'root', {
     host: 'localhost',
     port: 5432,
